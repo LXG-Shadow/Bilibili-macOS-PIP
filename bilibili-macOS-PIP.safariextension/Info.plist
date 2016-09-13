@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>0xBBC</string>
+	<key>Builder Version</key>
+	<string>12602.1.50.0.8</string>
+	<key>CFBundleDisplayName</key>
+	<string>Bilibili macOS PIP</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.BlueCocoa.bilibili-macos-pip</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>PIP.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Enable PIP(Picture-In-Picture) on macOS for bilibili</string>
+	<key>DeveloperIdentifier</key>
+	<string>BNBAK67H4M</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://blog.0xbbc.com/2016/09/bilibili-enable-macos-pip-safari-extension/</string>
+</dict>
+</plist>
