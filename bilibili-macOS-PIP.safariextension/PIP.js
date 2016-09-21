@@ -41,7 +41,8 @@ if (re.exec(window.location.href) != null || bangumi.exec(window.location.href))
             div.setAttribute("class", "bgray-btn");
             div.setAttribute("onclick", "native_player(this)");
             div.innerHTML = 'macOS<br>播放器';
-            elements[i].insertBefore(div, elements[i].childNodes[2]);            
+            elements[i].insertBefore(div, elements[i].childNodes[2]);
+            elements[i].setAttribute('style', 'display: block');
             break;
         }
     }
