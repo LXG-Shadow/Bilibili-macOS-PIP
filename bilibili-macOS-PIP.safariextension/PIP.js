@@ -15,7 +15,11 @@ if (re.exec(window.location.href) != null || bangumi.exec(window.location.href))
             var enabled = false; \
             function native_player(btn) {\
                 function enable_native(e) {\
-                    var player = document.getElementsByTagName("video")[0];\
+                    if (re.exec(window.location.href) != null) {\
+                        var player = document.getElementsByTagName("video")[0];\
+                    } else {\
+                        var player = document.getElementsByClassName("bilibiliHtml5Player")[0].contentDocument.getElementsByTagName("video")[0];\
+                    }\
                     console.log("Did Set!");\
                     if (e) {\
                         player.setAttribute("controls", "controls");\
