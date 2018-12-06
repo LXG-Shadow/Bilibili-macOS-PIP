@@ -40,9 +40,14 @@ function addToToolBar(){
         abc = setTimeout(addToToolBar,100);
     }
 }
+if (!window.jQuery){
+    var oScript = document.createElement('script');
+    oScript.type = "text/javascript";
+    oScript.src="//s1.hdslb.com/bfs/static/jinkela/long/js/jquery/jquery1.7.2.min.js";
+    document.head.appendChild(oScript);
+}
 window.onload=addToToolBar;
 `;
 if (window.parent.document.body != null){
-    window.parent.document.body.appendChild(oScript);
     window.parent.document.body.appendChild(myScript);
 };
